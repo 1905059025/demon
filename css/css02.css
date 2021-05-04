@@ -1,0 +1,192 @@
+*{padding: 0px;margin: 0px;}
+p,h1,h2,h3,h4,h5,h6,ul,li,ol,span{margin: 0px;padding: 0px;}	
+.main{width:1200px;margin: 0px auto;}
+a{text-decoration: none;}
+li{list-style-type: none;}
+
+.clear:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/*#box{height: 2000px;}*/
+
+/*头部样式*/
+.header{ height:160px;/*background: pink;*/}
+
+.header .h_top{height: 40px;background:#32373e;}
+
+.h_top .topCon {/*background: greenyellow;*/ height: 40px;}
+
+.topCon .conLeft{width: 600px; height:40px;/*background: bisque;*/ float: left;line-height: 40px;}
+
+.conLeft a{font-size:12px ;color: white;}
+
+.conLeft .left_text1{float: left;/*background: greenyellow;*/}
+
+.left_text1 .text1_1{font-size: 22px;color:#1b6f61 ;}
+
+.left_text1 .text1_2{ font-size:13px; color:#1b6f61; margin: 0px 10px 0px 20px;}
+
+.conLeft .left_text2 li{float: left;/*background: cyan;*/width:60px;height:40px;margin: 0px 10px;/*background: gainsboro;*/text-align: center;}
+
+.conLeft .left_text2 li:first-child{margin: 0px 10px 0px 30px; background: #24282c;}
+
+.topCon .conRight{width: 300px; height:40px;/*background: darkgray*/;float: right;line-height: 40px;position: relative;}
+
+.conRight span{font-size:12px ;color: white ;}
+
+ .conRight .right_text1{float: left;} 
+ 
+.right_text1 .user_logo{width: 20px;height: 20px;background-image:url(../img/img/sprite.png);background-position:53px 84px ;position: absolute;margin-right: 10px;top: 10px;}
+
+.right_text1 .login{ border-right: 1px solid white;padding-right: 10px;margin: 0px 10px 0px 30px;}
+
+.conRight .right_text2{float: right;} 
+
+.right_text2 .app_logo{width: 20px;height: 20px;background-image:url(../img/img/sprite.png);background-position:36px 46px;position:absolute;top: 10px;left:150px}
+
+.right_text2 .login{font-size:13px ;margin:0px 20px 0px 0px;}
+
+.header .h_bottom{height: 120px;background:#00b38a;}
+
+.h_bottom .botCon .bot_conLeft{width: 550px;/*background:yellow;*/overflow: hidden;float: left;height: 120px;}
+
+.botCon .bot_conLeft .logo{width: 200px;height: 120px;background-image: url(../img/img/logo.png);background-position: -10px 2px;background-repeat: no-repeat;background-size: 224px;float: left;}
+
+.botCon .bot_conLeft .left_text1{margin: 30px 0px; /*background: grey;*/}
+
+.bot_conLeft .left_text1 .text1_1{font-size: 20px;color: white;margin: 0px 20px;}
+
+.bot_conLeft .left_text1 a{font-size: 20px;color: #98d197;}
+
+.bot_conLeft .left_text1 .text1_2{font-size: 12px;color: white;}
+
+.h_bottom .botCon .bot_conRight{width: 455px;height: 120px; /*background: grey;*/float: right;overflow: hidden;}
+
+.botCon .bot_conRight .text2_1{width: 120px; height: 30px;background: white;float: left;font-size: 12px;margin: 50px 10px 0px 80px;line-height:30px ;padding-left: 10px;color: grey;}
+
+.botCon .bot_conRight .text2_2{width: 120px; height: 30px;background: white;float: left;font-size: 12px;margin: 50px 10px;line-height: 30px ;padding-left: 10px;color: gray;}
+
+.botCon .bot_conRight .text2_2 a{margin:0px 0px 0px 40px;padding-left: 10px;border-left: 1px solid grey;color:#00b38a}
+
+.botCon .bot_conRight .text2_3{float: right;font-size: 12px;margin: 50px 0px;width: 70px; height: 30px;/*background: red;*/line-height:30px ;padding-left: 10px;border: 1px solid white;color: white;}
+
+.search{height: 120px;background:#f2f5f4;}
+
+.search .sear_content{width: 940px;height: 120px; margin: 0px auto;}
+
+.sear_content .sear_txt{width: 780px;height: 40px;background: white;border: 1px solid #e8e8e8;margin-top: 20px;float: left;line-height: 42px;color: black;padding-left:15px ;}
+
+.sear_content .sousuo{float: right;width:143px;background: #00b38a;margin-top: 20px;line-height: 42px;height: 42px;text-align: center;}
+
+.sear_content .list li{float: left;margin: 10px 0px 0px 20px;color: #00b38a;font-size: 15px;}
+
+.sear_content .list li:first-child{margin-left: 0px;}
+
+/*banner样式*/
+
+.banner{/*height: 420px;*//*background: pink;*/overflow: hidden;}
+
+.banner .ban_content .ban_left{width: 300px;height: 420px;margin: 40px 60px 0px 0px;float: left;}
+
+.ban_content .ban_left ul{margin-bottom:25px ;float: left;width: 300px;}
+
+.ban_content .ban_left li{float: left;margin-right: 15px;font-size: 15px;line-height: 30px;}
+
+.ban_content .ban_left li:first-child{font-size: 20px;}
+
+.ban_content .ban_left span{font-size: 15px;float: right;}
+
+.banner .ban_content .ban_right{width: 840px;height: 420px;background: red;float: right;margin-top: 40px;}
+
+.ban_right .ban_img{background-image:url(../img/img/banner.JPG);width:840px;height: 420px;background-repeat:no-repeat;background-size: 840px 420px;}
+
+.ban_right .ban_img span{float: left;margin-top: 185px;font-size: 50px;color:#737276 ;opacity:0.8;}
+
+.ban_right .ban_img span:last-child{margin: -66px 0px 0px 803px; }
+
+
+/*内容样式*/
+.conter{/*height: 800px;background: bisque;*/margin-top: 70px;}
+
+.conter .conter1 .shoubu{overflow: hidden;}
+
+.conter .conter1 .shoubu li{float: left;margin-right: 20px;padding-bottom:5px ;line-height: 30px;}
+
+.conter .conter1 .shoubu li:active{ border-bottom:1px solid black ;color:black ;}
+
+.conter .conter1 .shoubu  li a{color: grey;}
+
+.conter .conter1 .select{margin-top: 20px;overflow: hidden;}
+
+.conter .conter1 .select1{width: 348px;height: 158px;/*background: red;*/float: left;padding: 20px 20px 20px 20px;border: 1px solid grey;}
+
+.conter  .job {/*background: green;*/overflow: hidden;}
+
+.conter  .job li{float: left;}
+
+.conter  .job li:first-child{font-size: 15px;/*background: goldenrod;*/}
+
+.conter .job li a{font-size: 12px;}
+
+.conter .job li:nth-child(3){font-size:15px;float: right;/*background: greenyellow;*/}
+
+.conter .job li:last-child{font-size:12px;margin-right: 30px;/*background:grey ;*/}
+
+.conter  .job .weixin{width: 16px;height: 16px;margin: 0px 10px;background-image: url(../img/img/icon_chat.png);}
+
+.conter  .txt{overflow: hidden;margin: 10px 0px 20px 0px;}
+
+.conter  .txt li{float: left;width: 80px;height: 20px;border: 1px solid white;line-height: 20px;font-size: 12px;margin-right: 10px;text-align: center;}
+
+.conter .company{margin-top: 20px;}
+
+.conter .company .select1_img{width: 40px;height: 40px; background:url(../img/img/con1.png);background-size:40px 40px;float: left;margin-right: 20px;}
+
+.conter  .company span{float: left;font-size: 15px;}
+
+.conter .conter1 .select2{width: 348px;height: 158px;/*background: red;*/float: left;margin: 0px 15px;padding: 20px 20px 20px 20px;border: 1px solid grey;}
+
+.conter .conter1 .select_conter{margin-top: 20px;overflow: hidden;}
+
+.conter .conter1 .end{width: 388px;height: 30px;margin: 20px auto;border: 1px solid #00b38a;text-align: center;line-height:30px; color: #00b38a;}
+
+
+/*结尾样式*/
+.footer{margin-top: 70px;overflow: hidden;}
+
+.footer .txt{width: 1200px;margin:20px 0px 90px 0px;overflow: hidden;}
+
+.footer .txt li{float: left;font-size: 12px;margin-right: 20px;}
+
+.footer .txt li:last-child{float: right;margin-right: 0px;}
+
+.footer .footer_content .txt div{width: 15px;height: 5px;background-image:url(../img/img2/open.jpg);background-repeat: no-repeat;float: right;margin-top: 5px;}
+
+
+/*最低部样式*/
+.bottom{margin-top:50px ;overflow: hidden;}
+
+.bottom .bottom_left{border-right:1px solid grey ;width: 313px;overflow: hidden;float: left;}
+
+.bottom .bottom_left .first{width:160px ;height: 50px;border: 1px solid greenyellow; font-size:12px ;margin-bottom: 10px;text-align: center;line-height: 50px;}
+
+.bottom .bottom_left .first .img1{width: 20px; height: 20px;float: left;margin: 15px 0px 0px 25px;background-image: url(../img/img/sprite2.png);background-size: 158px 199px;background-position:-357px -108px}
+
+.bottom .bottom_left .first .img2{width: 20px; height: 20px;float: left;margin: 15px 0px 0px 25px;background-image: url(../img/img/sprite2.png);background-size: 158px 199px;background-position:-385px -108px}
+
+.bottom .bottom_left .second {width:80px;float: left;margin-right:15px;font-size: 12px;margin-top: 20px;}
+
+.bottom .bottom_left .second .img3{width: 16px;height:16px;float: left;margin:2px 5px 0px 0px;background-image: url(../img/img/sprite2.png);background-position: 142px 35px;}
+
+.bottom .bottom_left .second .img4{width: 20px;height:20px;float: left;margin:2px 5px 0px 0px;background-image: url(../img/img/sprite2.png);background-position: 85px 237px;}
+
+.bottom .bottom_right{float: left;}
+
+.bottom .bottom_right ul{float: left;margin-left: 130px;}
+
+.bottom .bottom_right ul li:first-child{font-size: 20px;margin-bottom: 40px;}
+
+.bottom .bottom_right ul li{font-size: 15px;margin-bottom: 20px;}
